@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, useColorScheme, Dimensions } from 'react-native
 import { LineChart } from 'react-native-chart-kit';
 import axios from 'axios';
 
-const API_KEY = 'QTG78RGQ9R0XYD17'; // Replace with your key
+const API_KEY = 'QTG78RGQ9R0XYD17'; 
 
 type ChartData = {
   labels: string[];
